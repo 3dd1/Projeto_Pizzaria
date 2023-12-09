@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(29, 26, 26);
+    font-family: 'Anton', sans-serif;
+    font-size: 23px;
+}
+
+.logo{
+    max-width: 9rem;   
+}
+
+.cabecalho{
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.menu{
+    display: flex;
+    gap: 30px;
+    
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+.menu a:hover{
+    color: red;
+}
+.conheca_mais{
+    background-image: url(https://blog.biglar.com.br/wp-content/uploads/2023/06/iStock-1212512019.jpg) ;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.informacoes{
+    color: white;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.767);
+    border-radius: 20px;
+    padding: 20px;
+}
+.text1{
+    color: rgb(219, 23, 23);
+    font-family: 'Bebas Neue', sans-serif;
+}
+.text2{
+    font-size: 100px;
+    font-family: 'Whisper', cursive;
+    padding: 8px;
+}
+.informacoes p{
+    color: rgb(51, 167, 36);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 33px;
+}
+
+.informacoes button{
+background-color: rgb(209, 24, 24);
+border: none;
+color: white;
+font-size: 24px;
+border-radius: 20px;
+font-family: 'Bebas Neue', sans-serif; 
+padding: 5px 20px;
+cursor: pointer;
+transition: 0.5s ease-in-out;
+}
+.informacoes button:hover{
+    transform: scale(1.1);
+}
