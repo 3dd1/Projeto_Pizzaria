@@ -5,20 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto pizzaria</title>
     <link rel="stylesheet" href="./reset.css">
-    <link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Whisper&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Noto+Sans+JP&family=Whisper&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="cabecalho">
-        <img class="logo" src="https://img.freepik.com/vetores-premium/pizza-logo_25327-260.jpg" alt="pizza_logo">
+      <a href="./index.html"><img class="logo" src="https://img.freepik.com/vetores-premium/pizza-logo_25327-260.jpg " alt="pizza_logo"></a
         <nav>
             <ul class="menu">
-                <li class="home"><a href="#">HOME</a></li>
-                <li><a href="#">CARDÁPIO</a></li>
-                <li><a href="#">UNIDADES</a></li>
-                <li><a href="#">CONTATO</a></li>
+                <li class="home"><a href="./index.html">HOME</a></li>
+                <li><a href="./cardapio.html">CARDÁPIO</a></li>
+                <li><a href="./contato.html">CONTATO</a></li>
             </ul>
         </nav>
     </header>
@@ -28,9 +27,14 @@
                 <h1 class="text1">gostaria de comprar nossas </h1>
                 <h2 class="text2">Pizzas?</h2>
                 <p>Clique embaixo para ir para o paraiso das pizzas</p>
-                <button>conheca mais sobre a pizzaria</button>
+                <button class="infobutton"><a href="./cardapio.html">peça agora!</a></button>
             </div>
         </section>
     </main>
+    <footer class="footer">
+		<h2 class="footer_titulo"> Infinity - HTML e CSS</h2>
+		<p class="footer_texto">Site fictício - Pizzaria</p>
+		<p class="footer_detalhe">Desenvolvido por: Eduardo Soares</p>
+	</footer> 
 </body>
 </html>
