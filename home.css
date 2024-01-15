@@ -3,18 +3,15 @@ body{
     font-family: 'Anton', sans-serif;
     font-size: 23px;
 }
-
 .logo{
     max-width: 9rem;   
 }
-
 .cabecalho{
     display: flex; 
     justify-content: space-around;
     align-items: center;
     padding: 0px 20px;
 }
-
 .menu{
     display: flex;
     gap: 30px;
@@ -60,16 +57,249 @@ body{
 }
 
 .informacoes button{
-background-color: rgb(209, 24, 24);
-border: none;
-color: white;
-font-size: 24px;
-border-radius: 20px;
-font-family: 'Bebas Neue', sans-serif; 
-padding: 5px 20px;
-cursor: pointer;
-transition: 0.5s ease-in-out;
+    background-color: rgb(209, 24, 24);
+    border: none;
+    color: white;
+    font-size: 24px;
+    border-radius: 20px;
+    font-family: 'Bebas Neue', sans-serif; 
+    padding: 5px 20px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    
 }
 .informacoes button:hover{
     transform: scale(1.1);
+}
+.footer{
+    font-size: 20px;
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 8rem;
+}
+.pizzas{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.imagem{
+    width: 16rem;
+    height: 15rem;
+    border-radius: 20px;
+}
+.enfeite_red{
+    width: 17rem;
+    max-height: 19rem;
+    background-color: rgb(202, 3, 3);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.enfeite_gray{
+    width: 17rem;
+    max-height: 19rem;
+    background-color: rgb(231, 231, 231);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.enfeite_green{
+    width: 17rem;
+    max-height: 19rem;
+    background-color: rgb(3, 202, 3);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.guarana_foto{
+    width: 16rem;
+}
+.bebidas{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.titulo_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px ;
+    padding-bottom: 15px;
+    gap: 30px;
+}
+.titulo{
+    font-size: 60px;
+    color: rgb(195, 20, 20);
+    font-family: 'Bebas Neue', sans-serif;
+}
+.subtitulo{
+    font-size: 45px;
+    padding-bottom: 5px;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.bebidas_title{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    color: white;
+    font-size: 45px;
+    padding-bottom: 15px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.enfeite_red:hover{
+    transform: scale(1.1);
+}
+.enfeite_gray:hover{
+    transform: scale(1.1);
+}
+.enfeite_green:hover{
+    transform: scale(1.1);
+}
+.preço_nome{  
+    padding: 4px; 
+}
+.footer2{
+    font-size: 20px;
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 8rem;
+    border-top: 1px solid #666;
+    margin-top: 20px
+}
+.cabecalho2{
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 20px;
+    border-bottom: 1px solid #666;
+    margin-bottom: 15px
+}
+.informacoes button a{
+    text-decoration: none;
+    color: white;
+}
+.contato_title{
+    font-size: 60px;
+    color: rgb(195, 20, 20);
+    font-family: 'Bebas Neue', sans-serif;
+    padding: 20px;
+}
+.contato_subtitle{
+    font-size: 45px;
+    padding-bottom: 5px;
+    color: white;
+    font-family: 'Whisper', cursive;
+    padding-bottom: 40px;
+}
+.contatoTitle_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contato_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 80px;
+    gap: 30px;
+}
+.contato_esquerda{
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+     color: rgb(192, 191, 191);
+    width: 450px;
+    height:300px ;
+    padding: 6px;
+    gap: 20px;
+    font-family: 'Bebas Neue', sans-serif; 
+    font-size: 27px;
+}
+.contato_direita{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    color: rgb(192, 191, 191);
+    font-family: 'Bebas Neue', sans-serif; 
+    font-size: 30px;
+}
+.buttonlogo{
+    width: 50px;
+}
+.whats_button {
+    background-color: rgba(7, 239, 69, 0.899);
+    border: none;
+    font-size: 24px;
+    border-radius: 20px;
+    font-family: 'Bebas Neue', sans-serif; 
+    padding: 5px 20px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.whats_button:hover{
+    transform: scale(1.1);
+}
+.tele_button{
+    background-color: rgba(7, 152, 200, 0.988);
+    border: none;
+    font-size: 24px;
+    border-radius: 20px;
+    font-family: 'Bebas Neue', sans-serif; 
+    padding: 5px 20px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tele_button:hover{
+    transform: scale(1.1);
+}
+.insta_button{
+    background-color: rgba(159, 9, 224, 0.988);
+    border: none;
+    font-size: 24px;
+    border-radius: 20px;
+    font-family: 'Bebas Neue', sans-serif; 
+    padding: 5px 20px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.insta_button:hover{
+    transform: scale(1.1);
+}
+.contato_direita button a{
+    color: white;
+    text-decoration: none;
 }
